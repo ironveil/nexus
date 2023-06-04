@@ -309,7 +309,7 @@ export default function Notes() {
                     <TimelineLink title="Background" location="../first-background" date="1054 - 1095" />
                     <TimelineLink title="Calling of the Crusade" location="../first-calling" date="1095" />
                     <TimelineLink title="The People's Crusade" location="../first-peoples" date="" />
-                    <TimelineLink title="The Prince's Crusade" location="../first-princes" date="1095 - 1099" />
+                    <TimelineLink title="The Prince's Crusade" location="../first-princes" date="1096 - 1099" />
                 </div>
             </>
         ),
@@ -430,6 +430,7 @@ export default function Notes() {
                     <TimelineLink title="Journey to Constantinople" location="../first-princes-constantinople" date="1096 - 1097" />
                     <TimelineLink title="Crossing Anatolia" location="../first-princes-anatolia" date="1097 - 1098" />
                     <TimelineLink title="Siege of Antioch" location="../first-princes-antioch" date="1097 - 1098" />
+                    <TimelineLink title="Capture of Jerusalem" location="../first-princes-jerusalem" date="1099" />
                 </div>
             </>
         ),
@@ -491,6 +492,37 @@ export default function Notes() {
                     <p>The situation was dire for the Crusaders. However, a random monk had a vision from God, which revealed the location of the Holy Lance <i>(the spear that stabbed Jesus Christ when he was crucified)</i>. As the vision suggested, a fragment of the lance was buried in the local church, and it created mass religious fever & boosted morale. While some of the Lords were sceptical, they went along as it gave life to the exhausted army.</p>
                     <br />
                     <p>This resulted in the Crusaders launching a surprise counter-attack against the surrounding Muslim army. While they were majorly outnumbered & many of the soldiers lacked basic equipment or a horse, their actions scared off the army & the siege was ended. The Crusaders looted the nearby Muslim camp, and the citadel within Antioch surrendered after seeing this attack.</p>
+                    <br />
+                    <h3 id="delays">Delays at Antioch</h3>
+                    <p>Once they had secured Antioch, problems started to rise up. The leaders had fallen out over who should control Antioch - with <Link to="../frst-calling#bohemund">Bohemund</Link> wanting to secure Antioch for himself to help gain supplies from Genoa, whereas <Link to="../first-calling#raymond">Raymond</Link> wanted to honour Alexius' agreement & return the city to him. This caused many of the knights to leave for Edessa or home, and the remaining ones fought each other as their allegiances shifted to whoever would reward them the most.</p>
+                    <br />
+                    <p>The Crusade began to fall apart. After <Link to="../first-calling#adhemar">Bishop Adhemar</Link> died, the Crusaders lost their unifying voice& spiritual guidance. <Link to="../first-calling#hugh">Hugh</Link> travelled to Constantinople to try and convince Alexius to join the Crusading effort, but he refused since he feared he would be overthrown. They also asked Pope Urban II, but he also refused.</p>
+                    <br />
+                    <p>In the end, <Link to="../first-calling#raymond">Raymond's</Link> troops forced him to travel south towards <Link to="../first-princes-jerusalem">Jerusalem</Link>. <Link to="../first-calling#robert-normandy">Robert</Link> & <Link to="../first-calling#godfrey">Godfrey</Link> also agreed to go with him, and <Link to="../first-calling#bohemund">Bohemund</Link> agreed to send his troops as he stayed in Antioch. Overall, the Crusader army was 14,000 strong - which was considerably down from the ~50,000 that arrived in Constantinople.</p>
+                </div>
+            </>
+        ),
+        "first-princes-jerusalem": (
+            <>
+                <h1>Capture of Jerusalem</h1>
+                <div id="maintext">
+                    <p>After their <Link to="../first-princes-antioch#delays">delays in Antioch</Link>, things went smoothly due to the Crusader's brutal reputation. However, <Link to="../first-calling#raymond">Raymond</Link> decided to siege & capture a city on the way to Jerusalem, which angered people & caused them to think he just wanted land. From here on, the power & responsibility was shifted to <Link to="../first-calling#godfrey">Godfrey</Link>. Also, the Egyptians had recently captured Jerusalem & called reinforcements to help fortify the city, so the Crusaders needed to reach it before they arrived.</p>
+                    <br />
+                    <p>By June, the Crusaders eventually reached the city - some allegedly fell to their knees & wept at the sight. The 14,000 soldiers split up to try and siege the city, with Godfrey in the north & Raymond in the south. They had very little communication with each other, and they knew they had to storm the city quickly before the reinforcements arrived.</p>
+                    <br />
+                    <h3 id="siege">Siege of Jerusalem</h3>
+                    <p>The Crusaders camped for 4 weeks. In preparation, the Muslims had poisoned all the nearby wells & cut down all the trees, therefore the Crusaders couldn't build siege towers. Allegedly, Genoese sailors transported timber from their ships to help the two Lords build a siege machine each. To try and defend, the Muslims strengthened their defences close to where the towers were.</p>
+                    <br />
+                    <p>A few nights before, on the 8th of July, a large religious ceremony was held. The leaders publicly buried their differences & instilled more religious fever into the soldiers.</p>
+                    <br />
+                    <p>The assault was planned for the 14th of July. However, the night before the attack, Godfrey moved his siege tower to a less-defended section of the wall to increase his chances of getting in. As dawn broke out, the two armies charged at the city. Due to the fortifications, they weren't initially successful - however, Godfrey's tactics led to his army being able to swarm the city. Once they were inside, they massacred citizens, Jews, Muslims & soldiers. After a short period of time, the city was theirs. Unfortunately, Pope Urban II died two weeks after the city was taken, and he never knew of the success.</p>
+                    <br />
+                    <h3 id="aftermath">Aftermath</h3>
+                    <p>The Crusaders established a new Kingdom of Jerusalem. Initially, the crown was offered to <Link to="../first-calling#raymond">Raymond</Link>, but he refused as he thought "no-one should be called King where Jesus wore the crown of thorns". Next, <Link to="../first-calling#godfrey">Godfrey</Link> was offered he crown. He accepted the responsibility but named himself "Advocate of the Holy Sepulchre" instead of King.</p>
+                    <br />
+                    <p>The exhausted army still had the Muslim reinforcements to deal with. To secure his position as the leader of Jerusalem, he led his army out & swiftly defeated the relief force outside Ascalon. This resulted in Godfrey receiving a legendary status & securing his new kingdom.</p>
+                    <br />
+                    <p>After this, many people returned home since they had completed their pilgrimage & gained some materials o the way. However, this caused many problems in the region as they suddenly lost a lot of their manpower - a problem that would exist for a very long time.</p>
                 </div>
             </>
         ),
