@@ -28,8 +28,9 @@ export default function History({ subject }) {
                 <div id="maintext">
                     <TimelineLink title="Medieval Life" location="medieval-life" date="1000's" />
                     <TimelineLink title="The First Crusade" location="first" date="1095 - 1099" />
-                    <TimelineLink title="Fall of Edessa" location="edessa-1144" date="1144" />
-                    <TimelineLink title="The Second Crusade" location="second" date="1145 - 1148" />
+                    <TimelineLink title="Establishment of Outremer" location="outremer-establishment" date="1098 - 1144" />
+                    <TimelineLink title="The Second Crusade" location="second" date="1144 - 1148" />
+                    <TimelineLink title="Rise of Islam" location="outremer-islam" date="1148 - 1188" />
                     <TimelineLink title="Fall of Jerusalem" location="jerusalem-1188" date="1188" />
                     <TimelineLink title="The Third Crusade" location="third" />
                     <TimelineLink title="Aftermath" location="third-aftermath" />
@@ -53,6 +54,7 @@ export default function History({ subject }) {
                     <br />
                     <BigLink title={"How far or To what extent, with a stated factor"} location={"./how-far-to-what-extent"} />
                     <br />
+                    <BigLink title={"Crusades 10 Marker"} location={"./crusades-10-marker"} />
                     <h2 id="examples">Examples</h2>
                     <br />
                     <h3 id="crusades">Crusades</h3>

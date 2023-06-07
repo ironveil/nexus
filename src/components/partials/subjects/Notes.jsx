@@ -526,7 +526,19 @@ export default function Notes() {
                 </div>
             </>
         ),
-        "edessa-1144": (
+        "second": (
+            <>
+                <h1>The Second Crusade</h1>
+                <div id="maintext">
+                    <TimelineLink title="Fall of Edessa" location="../second-edessa" date="1144" />
+                    <TimelineLink title="Calling of the Crusade" location="../second-calling" date="1145 - 1146" />
+                    <TimelineLink title="Conrad & Defeat at Damascus" location="../second-conrad" date="1147 - 1148" />
+                    <TimelineLink title="Louis & Defeat at Mount Cadmus" location="../second-louis" date="1147 - 1148"/>
+                    <TimelineLink title="Defeat in Syria" location="../second-syria" date="1148" />
+                </div>
+            </>
+        ),
+        "second-edessa": (
             <>
                 <h1>Fall of Edessa</h1>
                 <div id="maintext">
@@ -540,23 +552,12 @@ export default function Notes() {
                 </div>
             </>
         ),
-        "second": (
-            <>
-                <h1>The Second Crusade</h1>
-                <div id="maintext"> 
-                    <TimelineLink title="Calling of the Crusade" location="../second-calling" date="1145 - 1146" />
-                    <TimelineLink title="Conrad & Defeat at Damascus" location="../second-conrad" date="1147 - 1148" />
-                    <TimelineLink title="Louis & Defeat at Mount Cadmus" location="../second-louis" date="1147 - 1148"/>
-                    <TimelineLink title="Defeat in Syria" location="../second-syria" date="1148" />
-                </div>
-            </>
-        ),
         "second-calling": (
             <>
                 <h1>Calling of the Crusade</h1>
                 <div id="maintext">
                     <h2 id="quantum-praedecessores">Quantum Praedecessores</h2>
-                    <p>After the <Link to="../edessa-1144#siege-of-edessa">siege of Edessa</Link>, people were worried that this would cause a domino effect - where all the other Crusader states would fall too. Word of the fall of Edessa reached the Pope, Eugenius III, by May 1145. His response was the outline & spark of the Second Crusade - in the form of the Quantum Praedecessores. This Papal Bull outlined the benefits of going on Crusade, which included:</p>
+                    <p>After the <Link to="../second-edessa#siege-of-edessa">siege of Edessa</Link>, people were worried that this would cause a domino effect - where all the other Crusader states would fall too. Word of the fall of Edessa reached the Pope, Eugenius III, by May 1145. His response was the outline & spark of the Second Crusade - in the form of the Quantum Praedecessores. This Papal Bull outlined the benefits of going on Crusade, which included:</p>
                     <br />
                     <ul>
                         <li>Full remission of sins, even for those who died on the journey there.</li>
@@ -601,6 +602,55 @@ export default function Notes() {
         "how-far-to-what-extent": (
             <>
                 <h1>How far or To what extent, with a stated factor</h1>
+            </>
+        ),
+        "crusades-first-build-up": (
+            <>
+                <h1>Which of the following was of greater importance in bringing about the First Crusade?</h1>
+                <div id="maintext">
+                    <p><Link to="../crusades-10-marker">How to answer</Link></p>
+                    <br />
+                    <h2 id="possible">Possible Factors</h2>
+                    <br />
+                    <h3 id="holy-war">Holy War</h3>
+                    <ul>
+                        <li><strong>Main reason</strong></li>
+                        <li>The Papacy wanted to extend their powers to the East.</li>
+                        <li>They also wanted a way to reunify their powers in Western Europe after the <Link to="../first-background#great-schism">Great Schism</Link> & <Link to="../first-background#investiture-contest">Investiture Contest</Link>.</li>
+                    </ul>
+                    <br />
+                    <h3 id="byzantium">Situation in Byzantium</h3>
+                    <ul>
+                        <li>Not very important</li>
+                        <ul>
+                            <li>Especially after the <Link to="../first-background#great-schism">Great Schism</Link>.</li>
+                        </ul>
+                        <li>Byzantium had <Link to="../first-background#byzantium">many problems</Link> that needed to be solved.</li>
+                    </ul>
+                </div>
+            </>
+        ),
+        "crusades-first-success": (
+            <>
+                <h1>Which of the following was of greater importance to the success of the First Crusade?</h1>
+                <div id="maintext">
+                    <p><Link to="../crusades-10-marker">How to answer</Link></p>
+                    <br />
+                    <h2 id="possible">Possible Factors</h2>
+                    <br />
+                    <h3 id="leadership">Leadership</h3>
+                    <ul>
+                        <li><strong>Main reason</strong></li>
+                        <li>Was responsible for the <Link to="../first-princes-jerusalem">successful capture of Jerusalem</Link>.</li>
+                        <li>Was also responsable for the <Link to="../first-princes-anatolia#dorylaeum">battle of Dorylaeum</Link>.</li>
+                    </ul>
+                    <br />
+                    <h3 id="religious-motivation">Religious Motivation</h3>
+                    <ul>
+                        <li>Somewhat important</li>
+                        <li>Did help the Crusaders through tough times, like the <Link to="first-princes-antioch">siege of Antioch</Link>.</li>
+                    </ul>
+                </div>
             </>
         )
     }
