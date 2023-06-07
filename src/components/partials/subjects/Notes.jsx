@@ -219,7 +219,7 @@ export default function Notes() {
                     <p>However, Wilson believed & was a good leader. He came from a humble background, which people trusted, and had always been good & interested in politics. He was intelligent, hard-working & had good memory. He also sought compromise rather than conflict, and was open to both sides of the party.</p>
                     <br />
                     <h3 id="election-66">1966 Election</h3>
-                    <p>A majority of 4 was unworkable, so Wilson called a snap election - he massively increased his majority to 96. People still blamed the Conservatives for the poor economy, and Wilson made their new leader, Edward Heath, look dogged & ponderous.</p>
+                    <p>A majority of 4 was unworkable, so Wilson called a snap election - he massively increased his majority to 96. People still blamed the Conservatives for the poor economy, and Wilson made their new leader, <Link to="../election-70#heath">Edward Heath</Link>, look dogged & ponderous.</p>
                     <br />
                     <h2 id="transformation">Wilson's Transformations</h2>
                     <p>As part of their <Link to="../election-64#wilson-leadership">1964 election manifesto</Link>, Labour had promised voters that they would reform society 'in the white heat of technology'.</p>
@@ -236,6 +236,7 @@ export default function Notes() {
             <>
                 <h1>Wilson's Societal Reforms</h1>
                 <div id="maintext">
+                    <h2 id="reforms-conflicts">Reforms & Conflicts</h2>
                     <p>Wilson started his transformation through new reforms, which was a big part of his election campaign due to the <Link to="../election-64#change-in-society">changes in society</Link>. This was led by the progressive Home Secretary Roy Jenkins, who imposed many pieces of legislation which 'modernised society':</p>
                     <br />
                     <ul>
@@ -268,6 +269,67 @@ export default function Notes() {
                     <p>The left wanted Wilson to send troops to crush the rebellion, however Wilson initially opted for economic sanctions. These failed, and instead he tried personal diplomacy - Smith was allowed to rule as long as majority rule was introduced. Smith's refusal of this made people believe that Wilson was against the rebellion, which helped public support of Wilson. The situation wasn't solved until the establishment of an independent Zimbabwe in 1980.</p>
                 </div>
             </>
+        ),
+        "wilson-economy-64-70": (
+            <>
+                <div id="maintext">
+                    <h3 id="deflation">Deflation</h3>
+                    <br />
+                    <h3 id="devaluation">Devaluation</h3>
+                    <h2 id="industrial-relations">Industrial Relations</h2>
+                    <br />
+                    <h3 id="in-place-of-strife">'In Place of Strife'</h3>
+                </div>
+            </>
+        ),
+        "election-70": (
+            <>
+                <h1>1970 Election</h1>
+                <div id="maintext">
+                    <p>An election was called in 1970, as the economy started to improve & Wilson gained a lot more support. However, to everyone's surprise, the Conservatives won.</p>
+                    <br />
+                    <h2 id="labour">Labour's Weaknesses</h2>
+                    <br />
+                    <h3 id="wilson">Wilson's Complacency</h3>
+                    <p>As the economy started to improve, Wilson's popularity figures jumped. He had a 51% approval rating compared to <Link to="../election-70#heath">Heath's</Link> 28%. This resulted in him becoming overly confident throughout his campaign, and believed that his campaigning skills were superior compared to Heath's. He became too relaxed and was destroyed when poor trade figures revealed that the balance of payments was in deficit again just a few days before the election.</p>
+                    <br />
+                    <h3 id="labour-split">Split Within Labour</h3>
+                    <p>Wilson successfully <Link to="../labour-weakness-51-64">covered up the party's divisions</Link> for the <Link to="../election-64#wilson-leadership">1964 election</Link>. However, these splits started reappearing - this became apparent when party membership dropped from ~830,000 in 1964 to ~680,000 in 1970. Many people thought that the current Labour government was too right-wing for various reasons:</p>
+                    <br />
+                    <ul>
+                        <li>Britain had been <Link to="../wilson-society-64-70#vietnam">too supportive of the Vietnam War</Link>, thus being too closely-aligned with America.</li>
+                        <li>Too much money was spent on defence rather than welfare, economic growth & education.</li>
+                        <li>Postponing <Link to="../wilson-economy-64-70#devaluation">devaluation</Link> to maintain the value of the Sterling only benefited the City of London & the Americans.</li>
+                        <li>The working class had been made poorer due to the economic policies.</li>
+                        <li>The government had abandoned their socialist & working class routes through their stance on <Link to="../wilson-economy-64-70#industrial-relations">industrial relations</Link> & the failure of <Link to="../wilson-economy-64-70#in-place-of-strife">'In Place of Strife'</Link></li>
+                    </ul>
+                    <br />
+                    <p>The government tried to appease the left through their <Link to="../wilson-society-64-70#reforms-conflicts">progressive social reforms</Link>. However, these people were more likely protesting the <Link to="../wilson-society-64-70#foreign-issues">foreign issues</Link> rather than praising them for their societal reforms.</p>
+                    <br />
+                    <h3 id="economy">Economic Failure</h3>
+                    <p>Wilson promised to modernise Britain in the <Link to="../election-64#wilson-leadership">1964 election</Link>, and he needed to live up to it. However, he proved that Trade Unions held the most power through the failure of <Link to="../wilson-economy-64-70#in-place-of-strife">'In Place of Strife'</Link> and he failed to tame them like people thought he would.</p>
+                    <br />
+                    <h2 id="conservatives">Conservative Strengths</h2>
+                    <br />
+                    <h3 id="policy">Policy Proposals</h3>
+                    <p>The Conservatives had 6 years in opposition to draft new policies:</p>
+                    <br />
+                    <ul>
+                        <li>Industrial relations would be reformed through new stricter laws to prevent disruptive strikes & inflationary pay rises.</li>
+                        <li>Less state intervention in industry, especially in failing businesses.</li>
+                        <li>Attempts to stop price & wage increases by law would be scrapped.</li>
+                        <li>Britain would try and join the EEC.</li>
+                    </ul>
+                    <br />
+                    <h3 id="heath">Heath's Leadership</h3>
+                    <p>Heath, like Wilson, came from a more humble background in Kent. While he wasn't the most charismatic person, he replaced <Link to="../conservative-leaders-51-64#douglas-home">Douglas-Home</Link> in 1965. Initially, he wasn't very successful - losing the <Link to="../wilson-64-70#election-66">1966 election</Link> to Wilson & having little support from his fellow MPs. However, as time went on, he gained more support & charisma through intelligently targeting Wilson's weak points - like how inflation <i>(via the Retail Price Index)</i> had risen 33% since they gained power and unemployment rose by 200,000. The press also praised him & supported his claims.</p>
+                    <br />
+                    <p>His first act of authority was the sacking of Enoch Powell. After his <Link to="../wilson-society-64-70#race-relations">'Rivers of Blood' speech</Link>, Heath decided to sack him from the shadow cabinet. While many voters were angry at this decision & supported Powell, many Tory MPs backed Heath and started to believe in him more.</p>
+                </div>
+            </>
+        ),
+        "heath-70-74": (
+            <></>
         ),
         "medieval-life": (
             <>
