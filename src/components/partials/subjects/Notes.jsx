@@ -257,6 +257,9 @@ export default function Notes() {
                     <h3 id="education-reform">Education Reform</h3>
                     <p>Many people disliked the current three-tier system, so the Minister for Education Anthony Crossland started replacing the old system with the new comprehensive system. He also helped expand Universities across Britain due to the Robbins report, which claimed that Britain needed a sufficiently educated population. Wilson also established the Open University, which allowed people to work on a degree part-time & at home. However these reforms were actually started during the <Link to="../conservative-domination-51-64#social-policy">Conservatives</Link>. <Link to="../conservative-leaders-51-64#douglas-home">Douglas-Home</Link> began to implement these during his short leadership.</p>
                     <br />
+                    <h3 id="cabinet">Cabinet Management</h3>
+                    <p>To try and stabilise his cabinet, Wilson decided to give minister jobs to senior figures of all shades of opinions, rather than just picking his friends & colleagues. However, this resulted in bitter arguments & clashes of personality. This fighting reached a peak in 1969 when trying to deal with <Link to="../wilson-economy-64-70#industrial-relations">industrial relations</Link>. Despite this, only 4 cabinet members resigned <i>(the same number that resigned under <Link to="../conservative-leaders-51-64#macmillan">MacMillan</Link>)</i>.</p>
+                    <br />
                     <h2 id="foreign-issues">Foreign Issues</h2>
                     <p>A lot of foreign & colonial issues arose under Wilson.</p>
                     <br />
@@ -267,6 +270,9 @@ export default function Notes() {
                     <p>After the war, the British Empire started a process of decolonisation, where many of it's colonies became independent and ruled by the majority of that country. In 1965, Ian Smith declared an independent Southern Rhodesia by the white-minority government, which would have prevented the government being ran by the black-majority through decolonisation.</p>
                     <br />
                     <p>The left wanted Wilson to send troops to crush the rebellion, however Wilson initially opted for economic sanctions. These failed, and instead he tried personal diplomacy - Smith was allowed to rule as long as majority rule was introduced. Smith's refusal of this made people believe that Wilson was against the rebellion, which helped public support of Wilson. The situation wasn't solved until the establishment of an independent Zimbabwe in 1980.</p>
+                    <br />
+                    <h3 id="eec">EEC Rejection</h3>
+                    <p>Wilson believed that he could persuade the French President <Link to="../churchill-de-gaulle">De Gaulle</Link> to change his mind after his <Link to="../conservative-decline-51-64#eec-rejection">previous veto</Link>. This failed, and the answer in 1967 was still no. However, this rejection helped improve party unity as the pro-Europeans were pleased by the application & anti-Europeans by it's rejection.</p>
                 </div>
             </>
         ),
@@ -712,6 +718,42 @@ export default function Notes() {
                         <li>Somewhat important</li>
                         <li>Did help the Crusaders through tough times, like the <Link to="first-princes-antioch">siege of Antioch</Link>.</li>
                     </ul>
+                </div>
+            </>
+        ),
+        "2-software-development-methodologies": (
+            <>
+                <h1>Software Development Methodologies</h1>
+                <div id="maintext">
+                    <p>There are many ways for teams to develop software:</p>
+                    <br />
+                    <h2 id="waterfall">Waterfall</h2>
+                    <br />
+                    <h3 id="analysis">Analysis</h3>
+                    <p>First, you need to accurately define the problem. This involves identifying any existing problems & any user requirements, which involves interviewing the client/users. Failure to accurately do so can result in the client being unsatisfied with the final product, or the product not working as outlined by the client.</p>
+                    <br />
+                    <h3 id="feasibility">Feasibility</h3>
+                    <p>Next, you need to work out if there is an actual need for the product & if the problem exists. This also involves looking at if it is feasible - both technologically & economically. Also, you need to check for any social, legal, environmental & ethical issues that the product may create. Failure to do so may cause legal & ethical issues for the client, and may waste their time & money if the solution to the problem already exists.</p>
+                    <br />
+                    <h3 id="analysis">Analysis</h3>
+                    <p>Finally, you need to analyse the system to solve the problem. This includes:</p>
+                    <br />
+                    <ul>
+                        <li>Details on how the current system works.</li>
+                        <li>What inputs are used & how are they processed.</li>
+                        <li>What outputs are produced & what format are they in.</li>
+                        <li>How data is stored, accessed, how long it's kept & how much there is.</li>
+                        <li>Who is using the system, what are their roles, how knowledgeable are they & how do they interact with the system.</li>
+                    </ul>
+                    <br />
+                    <p>There are several ways to analyse a system: conduct interviews, observe the users, send out questionnaires & surveys, create meetings, and look at existing documentation.</p>
+                    <br />
+                    <h2 id="spiral">Spiral</h2>
+                    <p>The spiral model is very similar to waterfall, but also uses project cycles & prototypes.</p>
+                    <br />
+                    <h2 id="agile">Agile</h2>
+                    <p>Agile methodologies often incorporate prototypes in their development process, which allows the end user to test the software & provide feedback midway through the project development. However, it is often critisised as it can have scope creep - where the scope of the project keeps increasing every prototype as the end user thinks of new ways to improve it.</p>
+                    <br />
                 </div>
             </>
         )
