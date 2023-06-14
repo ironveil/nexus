@@ -12,6 +12,13 @@ export default function Home() {
             <h1>Computer Science</h1>
             <SubjectLink title={"Computer Science"} subtitle={"Paper One"} location={"cs/paper1"} img={"cs1.jpg"} />
             <SubjectLink title={"Computer Science"} subtitle={"Paper Two"} location={"cs/paper2"} img={"cs2.jpg"} />
+
+            <h1>Maths</h1>
+            <SubjectLink title={"Pure Maths"} subtitle={"Years 1 & 2"} location={"maths/pure"} img={"pure.jpg"} />
+            <SubjectLink title={"Statistics"} subtitle={"Years 1 & 2"} location={"maths/stats"} img={"stats.png"} />
+            <SubjectLink title={"Mechanics"} subtitle={"Years 1 & 2"} location={"maths/mechanics"} img={"mechanics.jpg"} />
+
+            <br />
         </>
     )
 }
