@@ -199,6 +199,16 @@ export default function Notes() {
                     <br />
                     <h3 id="change-in-society">Changes in 1950's Society</h3>
                     <p>A rise in living standards allowed people to have more money & be more independent, therefore being less likely to accept traditional values & opt for more progressive values instead. This often led to many <Link to="../conservative-decline-51-64#youth-riots">youth riots</Link>. Underprivileged youth also had better access to education, which led to a blur of the class divide. These youth also wanted a classless, scientific & technologically advanced society, which Labour promised them.</p>
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <h3 id="resources">Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="/src/resources/britain/election-1964-flashcards.pdf" download>Flashcards</a>
+                        </li>
+                    </ul>
                 </div>
             </>
         ),
@@ -331,6 +341,16 @@ export default function Notes() {
                     <p>Heath, like Wilson, came from a more humble background in Kent. While he wasn't the most charismatic person, he replaced <Link to="../conservative-leaders-51-64#douglas-home">Douglas-Home</Link> in 1965. Initially, he wasn't very successful - losing the <Link to="../wilson-64-70#election-66">1966 election</Link> to Wilson & having little support from his fellow MPs. However, as time went on, he gained more support & charisma through intelligently targeting Wilson's weak points - like how inflation <i>(via the Retail Price Index)</i> had risen 33% since they gained power and unemployment rose by 200,000. The press also praised him & supported his claims.</p>
                     <br />
                     <p>His first act of authority was the sacking of Enoch Powell. After his <Link to="../wilson-society-64-70#race-relations">'Rivers of Blood' speech</Link>, Heath decided to sack him from the shadow cabinet. While many voters were angry at this decision & supported Powell, many Tory MPs backed Heath and started to believe in him more.</p>
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <h3 id="resources">Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="/src/resources/britain/election-1970-flashcards.pdf" download>Flashcards</a>
+                        </li>
+                    </ul>
                 </div>
             </>
         ),
@@ -717,6 +737,53 @@ export default function Notes() {
                     <ul>
                         <li>Somewhat important</li>
                         <li>Did help the Crusaders through tough times, like the <Link to="first-princes-antioch">siege of Antioch</Link>.</li>
+                    </ul>
+                </div>
+            </>
+        ),
+        "1-cpu-components": (
+            <>
+                <h1>CPU Components</h1>
+                <div id="maintext">
+                    <h3 id="cu">Control Unit</h3>
+                    <p>The Control Unit <i>(CU)</i> coordinates all activities of the CPU. It directs flow of data between devices and components, as well as decoding & executing instructions fetched from the main memory. It makes memory read & write requests through the control bus, as well as command & control signals throughout the internal components of the CPU.</p>
+                    <br />
+                    <h3 id="pc">Program Counter</h3>
+                    <p>The Program Counter <i>(PC)</i> holds the address of the next instruction to be executed - either the next instruction in sequence or an instruction to jump to. It has a close relationship with the Memory Address Register, as at the beginning of the <Link to="../1-fetch-decode-execute">fetch-decode-execute cycle</Link>, the address held in the PC gets sent to the MAR.</p>
+                    <br />
+                    <h3 id="mar">MAR</h3>
+                    <p>The Memory Address Register <i>(MAR)</i> holds the address of the next instruction or piece of data to be fetched. This is sent to the main memory via the address bus.</p>
+                    <br />
+                    <h3 id="mdr">MDR</h3>
+                    <p>The Memory Data Register <i>(MDR)</i> temporarily stores the data that was requested by the MAR. All data read or written from main memory travels through this via the data bus.</p>
+                    <br />
+                    <h3 id="CIR">CIR</h3>
+                    <p>The Current Instruction Register <i>(CIR)</i> holds the current instruction being executed. It contains the OPCODE & OPERAND of the instruction.</p>
+                    <br />
+                    <h3 id="alu">ALU</h3>
+                    <p>The Arithmetic Logic Unit <i>(ALU)</i> performs arithmetic & logical operations on data. This could be arithmetic operations such as addition or subtraction, or boolean operations like AND or OR.</p>
+                    <br />
+                    <h3 id="buses">Buses</h3>
+                    <ul>
+                        <li><strong>Address Bus</strong>: carries memory addresses that identify where data is being read or written from.</li>
+                        <li><strong>Data Bus</strong>: carries the information being transmitted around the CPU.</li>
+                        <li><strong>Control Bus</strong>: carries control signals to and from every component of the CPU & computer.</li>
+                    </ul>
+                </div>
+            </>
+        ),
+        "1-fetch-decode-execute": (
+            <>
+                <h1>Fetch-Decode-Execute Cycle</h1>
+                <div id="maintext">
+                    <h2 id="cycle">Cycle</h2>
+                    <br />
+                    <h3 id="fetch">Fetch</h3>
+                    <ul>
+                        <li>The <Link to="../1-cpu-components#pc">PC</Link> is checked, as it stores the address of the next instruction to be executed. This address is copied to the <Link to="../1-cpu-components#mar">MAR</Link> & is sent to main memory via the address bus, where it waits for a signal from the control bus.</li>
+                        <li>The <Link to="../1-cpu-components#cu">CU</Link> sends a read signal to main memory via the control bus.</li>
+                        <li>Data from the requested instruction is sent to the <Link to="../1-cpu-components#mdr">MDR</Link> via the data bus. If it is an instruction, it gets sent to the <Link to="../1-cpu-components#cir">CIR</Link>; if not, it gets sent to the Accumulator.</li>
+                        <li>Since the instruction has been fetched, the <Link to="../1-cpu-components#pc">PC</Link> increments by 1.</li>
                     </ul>
                 </div>
             </>
