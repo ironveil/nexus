@@ -18,7 +18,7 @@ export default function History({ subject }) {
                     <TimelineLink title="Wilson's Limited Success" location="wilson-64-70" date="1964 - 1970" />
                     <TimelineLink title="1970 Election" location="election-70" date="1970" />
                     <TimelineLink title="Heath's Failure" location="heath-70-74" date="1970 - 1974" />
-                    <TimelineLink title="1974 Election" location="election-74" date="1974" />
+                    <TimelineLink title="1974 Elections" location="election-74" date="1974" />
                 </div>
             </>
         )
