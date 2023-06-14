@@ -355,7 +355,59 @@ export default function Notes() {
             </>
         ),
         "heath-70-74": (
-            <></>
+            <>
+                <h1>Heath's Failure</h1>
+                <div id="maintext">
+                    <h2 id="ee">Joining the EEC</h2>
+                    <h2 id="industrial-relations">Industrial Relations</h2>
+                    <h3 id="industrial-relations-act">Industrial Relations Act</h3>
+                </div>
+            </>
+        ),
+        "election-74": (
+            <>
+                <h1>1974 Elections</h1>
+                <div id="maintext">
+                    <h2 id="February">February 1974</h2>
+                    <p><Link to="../election-70#heath">Heath</Link> called an election, hoping that he would have decisive support for his government policies. However, this resulted in an indecisive election - the electorate couldn't decide which party to vote for. The Conservatives got 11.8 million votes & 297 seats, and Labour got 11.6 million votes & 301 seats. Heath tried to form an anti-Labour coalition, but failed. Therefore, Wilson won but with a hung parliament - he didn't have a full majority so he would struggle to pass any laws or bills.</p>
+                    <br />
+                    <h2 id="october">October 1974</h2>
+                    <p>Since he had a minority government, Wilson decided to call another election in October. Labour managed to increase their seats to 319 & gain a majority of 3, however this clearly wasn't an endorsement of Labour. They managed to still win, despite their <Link to="../wilson-64-70">previous failures</Link> for several reasons:</p>
+                    <br />
+                    <h3 id="unions">Trade Unions</h3>
+                    <p>To show that the <Link to="../heath-70-74">Industrial Relations Act</Link> was unnecessary, Wilson reached an agreement with the TUC in 1973 called the Social Contract:</p>
+                    <br />
+                    <ul>
+                        <li>The Unions agreed to co-operate in trying to control wage increases.</li>
+                        <li>The government promised to try to keep down prices & provide better welfare benefits.</li>
+                        <li>There would be a return to free collective bargaining over wages & no statutory incomes policy.</li>
+                    </ul>
+                    <br />
+                    <p>However, the wage increases still was above the inflation rate & it gave the Unions a lot of power - the leader of the Transport Workers Union was rated the most powerful man in Britain. However, the Social Contract did suggest that the Unions & government had shared goals, and that they could co-operate. This contract lasted until the <Link to="../labour-74-79#winter-of-discontent">winter of discontent in 1978/9</Link>.</p>
+                    <br />
+                    <h3 id="left">Drift to the Left</h3>
+                    <p>Many people thought that the Labour party had <Link to="../election-70#labour-split">drifted to the right</Link> <Link to="../wilson-64-70">last time they were in power</Link>. To solve this, they had drifted back to the left during their time in the opposition. This was reflected in the appointment of two cabinet ministers:</p>
+                    <br />
+                    <ul>
+                        <li><strong>Michael Foot</strong>: he was appointed at the Department of Employment. He believed in strong social equality, and took over Callaghan from 1980 - 1983.</li>
+                        <li><strong>Tony Benn</strong>: he was appointed as the secretery of state for industry. He was a strong socialist & anti-Nuclear weapons, and served under Wilson's previous cabinet.</li>
+                    </ul>
+                    <p>While this shift to the left did happen throughout the party, as well as at the local level, it did cause problems during the 1980s.</p>
+                    <br />
+                    <h3 id="europe">Divisions over Europe</h3>
+                    <p>Labour promised to renegotiate the terms for the <Link to="../heath-70-74#eec">British entry into the EEC</Link> & to hold a referendum on the issue. The entry terms were reduced so that Britain had to pay less to the EEC budget, and a date for the referendum was set in 1975. Wilson allowed his ministers to campaign for either side, which resulted in a 2:1 vote in favour of joining the EEC. This was proposed as a way to fix Britain's economic issues, and the issue of Europe & Labour divisions were hidden again.</p>
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <h3 id="resources">Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="/src/resources/britain/election-1974-flashcards.pdf" download>Flashcards</a>
+                        </li>
+                    </ul>
+                </div>
+            </>
         ),
         "medieval-life": (
             <>
