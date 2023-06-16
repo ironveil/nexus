@@ -23,6 +23,13 @@ function MobileNav({ setShow }) {
                 <NavLink to={"/cs/paper1"}>🖥️ Paper One</NavLink>
                 <NavLink to={"/cs/paper2"}>🧑‍💻 Paper Two</NavLink>
             </div>
+
+            <h1>Maths</h1>
+            <div className="links">
+                <NavLink to={"/maths/pure"}>🧮 Pure</NavLink>
+                <NavLink to={"/maths/stats"}>📊 Statistics</NavLink>
+                <NavLink to={"/maths/mechanics"}>🦾 Mechanics</NavLink>
+            </div>
         </div>
     )
 }
@@ -58,6 +65,11 @@ export default function Nav() {
                 <h1>Computer Science</h1>
                 <NavLink to={"/cs/paper1"}>🖥️ Paper One</NavLink>
                 <NavLink to={"/cs/paper2"}>🧑‍💻 Paper Two</NavLink>
+
+                <h1>Maths</h1>
+                <NavLink to={"/maths/pure"}>🧮 Pure</NavLink>
+                <NavLink to={"/maths/stats"}>📊 Statistics</NavLink>
+                <NavLink to={"/maths/mechanics"}>🦾 Mechanics</NavLink>
             </nav>
         )
     }
