@@ -24,13 +24,23 @@ export default function Notes() {
                     <br />
                     <p>However, this wasn't the main reason why Labour lost - they beat the Conservatives with the number of votes & got the highest number of votes until 1992 & 2019.</p>
                     <br />
-                    <h3 id="conservatives-strengths">Conservative's Strengths</h3>
+                    <h3 id="conservatives-strengths">Conservative Strengths</h3>
                     <p>The Conservatives were shocked after their loss in 1945. As such, they were forced to restructure the party. This was led by Lord Woolton, who reformed party finances & local organisation, which allowed them to take advantage of Labour's weaknesses. They criticised Labour's nationalisation of steel & iron, and promised to build 300,000 new houses a year compared to Labour's 200,000. However, they knew that Labour's policies were popular, so the Conservatives committed to expanding the Welfare State & the end of rationing through offering more 'red meat' <i>(this was a popular item that was still rationed until 1954)</i>.</p>
                     <br />
                     <h3 id="electoral-system">Electoral System</h3>
                     <p>While Labour did increase their number of voters, this was typically in 'safe' areas which already had a majority of Labour voters - which meant that there wouldn't be an increase in the number of seats. In contrast, the Conservatives focused on flipping swing states, which gained them a lot of seats. Also, Labour reformed boundary changes for voting, which led to them requiring more votes for the same number of seats.</p>
                     <br />
                     <p>The collapse of the Liberal party helped contribute to this. Due to poor finances, they could only afford to contest 109 seats, which left many Liberal voters unable to support their party. As a result, many of these voters switched & voted for Conservatives.</p>
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <h3 id="resources">Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="/src/resources/britain/election-1951-flashcards.pdf" download>Flashcards</a>
+                        </li>
+                    </ul>
                 </div>
             </>
         ),
