@@ -38,7 +38,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/src/resources/britain/election-1951-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/election-1951-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
                 </div>
@@ -216,7 +216,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/src/resources/britain/election-1964-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/election-1964-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
                 </div>
@@ -358,7 +358,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/src/resources/britain/election-1970-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/election-1970-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
                 </div>
@@ -414,7 +414,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/src/resources/britain/election-1974-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/election-1974-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
                 </div>
@@ -467,7 +467,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/src/resources/britain/labour-74-79-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/labour-74-79-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
                 </div>
