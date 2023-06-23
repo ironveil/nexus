@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom"
 import BigLink from "../components/BigLink"
 import TimelineLink from "../components/TimelineLink"
 
+import Election74Flashcards from  "../../../resources/britain/election-1974-flashcards.pdf"
+
 export default function Notes() {
     const id = useParams().note
 
@@ -414,7 +416,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/election-1974-flashcards.pdf" download>Flashcards</a>
+                            <Link to={Election74Flashcards} download="1974 Election Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>
                         </li>
                     </ul>
                 </div>
@@ -467,9 +469,23 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/labour-74-79-flashcards.pdf" download>Flashcards</a>
+                            <a href="/public/resources/britain/labour-1974-1979-flashcards.pdf" download>Flashcards</a>
                         </li>
                     </ul>
+                </div>
+            </>
+        ),
+        "thatcher-79-90": (
+            <>
+                <h1>Thatcher's Revolution</h1>
+                <div id="maintext">
+                    <br />
+                    <div className="dual">
+                        <BigLink title={"Electoral Victories"} location="../thatcher-elections-79-90" />
+                        <BigLink title={"Economic Revolution"} location="../thatcher-economy-79-90" />
+                        <BigLink title={"Social Revolution"} location="../thatcher-society-79-90" />
+                        <BigLink title={"Cabinet Management"} location="../thatcher-cabinet-79-90" />
+                    </div>
                 </div>
             </>
         ),

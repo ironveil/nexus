@@ -21,11 +21,7 @@ export default function History({ subject }) {
                     <TimelineLink title="1974 Elections" location="election-74" date="1974" />
                     <TimelineLink title="Wilson & Callaghan" location="labour-74-79" date="1974 - 1979" />
                     <TimelineLink title="1979 Election" location="election-79" date="1979" />
-                    <TimelineLink title="Thatcher's Struggles" location="thatcher-79-83" date="1979 - 1983" />
-                    <TimelineLink title="1983 Election" location="election-83" date="1983" />
-                    <TimelineLink title="Thatcher's Success" location="thatcher-83-87" date="1983 - 1987" />
-                    <TimelineLink title="1987 Election" location="election-87" date="1987" />
-                    <TimelineLink title="Thatcher's Fall & Rise of Major" location="conservatives-87-92" date="1987 - 1992" />
+                    <TimelineLink title="Thatcher's Revolution" location="thatcher-79-90" date="1979 - 1990" />
                     <TimelineLink title="1992 Election" location="election-92" date="1992" />
                     <TimelineLink title="Major's Downfall" location="major-92-97" date="1992 - 1997" />
                 </div>
