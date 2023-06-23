@@ -8,7 +8,7 @@ import Election51Flashcards from "../../../resources/britain/election-1951-flash
 import Election64Flashcards from "../../../resources/britain/election-1964-flashcards.pdf"
 import Election70Flashcards from "../../../resources/britain/election-1970-flashcards.pdf"
 import Election74Flashcards from  "../../../resources/britain/election-1974-flashcards.pdf"
-import Labour7479Flashcards from "../../../resources/britain/labor-1974-1979-flashcards.pdf"
+import Labour7479Flashcards from "../../../resources/britain/labour-1974-1979-flashcards.pdf"
 
 export default function Notes() {
     const id = useParams().note
