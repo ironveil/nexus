@@ -4,7 +4,11 @@ import { useParams } from "react-router-dom"
 import BigLink from "../components/BigLink"
 import TimelineLink from "../components/TimelineLink"
 
+import Election51Flashcards from "../../../resources/britain/election-1951-flashcards.pdf"
+import Election64Flashcards from "../../../resources/britain/election-1964-flashcards.pdf"
+import Election70Flashcards from "../../../resources/britain/election-1970-flashcards.pdf"
 import Election74Flashcards from  "../../../resources/britain/election-1974-flashcards.pdf"
+import Labour7479Flashcards from "../../../resources/britain/labor-1974-1979-flashcards.pdf"
 
 export default function Notes() {
     const id = useParams().note
@@ -40,7 +44,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/election-1951-flashcards.pdf" download>Flashcards</a>
+                            <Link to={Election51Flashcards} download="1951 Election Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>
                         </li>
                     </ul>
                 </div>
@@ -199,7 +203,7 @@ export default function Notes() {
                     <p>An election was called in 1964, which led to the victory of Labour & the end of the <Link to="../conservatives-51-64">13 years of Conservative domination</Link>. However, what was apparent that this was due to a rejection of the Conservatives, rather than an endorsement of Labour.</p>
                     <br />
                     <h3 id="wilson-leadership">Harold Wilson's Leadership</h3>
-                    <p>After Gaitskell died in 1963, Harold Wilson was elected leader. He managed to gloss over any <Link to="../labour-weakness-51-64">internal divisions</Link> & portrayed Labour as 'modern, progressive & dynamic'. This was also alongside a new election manifesto that offered full employment, economic growth, and increased welfare, healthcare and housing. He was also seen as a classless professional due to his more humble background - a man of the people to lead a new scientific & advanced Britain. However, this was not reflected in the polls - Labour received 10,000 less votes than the 1959 election.</p>
+                    <p>After Gaitskell died in 1963, Harold Wilson was elected leader. He managed to gloss over any <Link to="../labour-weakness-51-64">internal divisions</Link> & portrayed Labour as 'modern, progressive & dynamic'. This was also alongside a new election mani<Link to={Election51Flashcards} download="1951 Election Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>festo that offered full employment, economic growth, and increased welfare, healthcare and housing. He was also seen as a classless professional due to his more humble background - a man of the people to lead a new scientific & advanced Britain. However, this was not reflected in the polls - Labour received 10,000 less votes than the 1959 election.</p>
                     <br />
                     <h3 id="public-view-conservatives">Public Perception of the Conservatives</h3>
                     <p>The Conservatives were blamed for the <Link to="../conservative-decline-51-64#economic-issues">economic issues</Link> & failed to tackle rising unemployment, inflation, class gap & industrial worries. They were also out of touch due to the various <Link to="../conservative-decline-51-64#scandals">scandals</Link> & the <Link to="../conservative-leaders-51-64#douglas-home">Earl of Home</Link> being their leader - people saw them as old-fashioned, elite & self-righteous.</p>
@@ -218,7 +222,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/election-1964-flashcards.pdf" download>Flashcards</a>
+                        <Link to={Election64Flashcards} download="1964 Election Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>
                         </li>
                     </ul>
                 </div>
@@ -360,7 +364,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/election-1970-flashcards.pdf" download>Flashcards</a>
+                        <Link to={Election70Flashcards} download="1970 Election Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>
                         </li>
                     </ul>
                 </div>
@@ -469,7 +473,7 @@ export default function Notes() {
                     <h3 id="resources">Resources</h3>
                     <ul>
                         <li>
-                            <a href="/public/resources/britain/labour-1974-1979-flashcards.pdf" download>Flashcards</a>
+                            <Link to={Labour7479Flashcards} download="Labour 1974 - 1979 Flashcards" target="_blank" rel="noreferrer">Flashcards</Link>
                         </li>
                     </ul>
                 </div>
